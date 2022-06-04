@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { IMobileRegistryEntry, IQRCodeModalOptions } from "@walletconnect/types";
 import { TextMap } from "../types";
 interface LinkDisplayProps {

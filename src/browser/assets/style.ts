@@ -65,8 +65,8 @@ export const WALLETCONNECT_STYLE_SHEET = `:root {
 
 .walletconnect-modal__close__wrapper {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: calc(100% + 25px);
+  right: 10px;
   z-index: 10000;
   background: white;
   border-radius: 26px;
@@ -102,7 +102,7 @@ export const WALLETCONNECT_STYLE_SHEET = `:root {
 
 .walletconnect-qrcode__base {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background: rgba(37, 41, 46, 0.95);
+  background: rgba(0, 0, 0, 0.85);
   height: 100%;
   left: 0;
   pointer-events: auto;
@@ -213,15 +213,20 @@ export const WALLETCONNECT_STYLE_SHEET = `:root {
   margin-top: 41px;
   padding: 24px 24px 22px;
   pointer-events: auto;
-  position: relative;
+  position: absolute;
   text-align: center;
   transition: 0.4s cubic-bezier(0.19, 1, 0.22, 1);
   will-change: transform;
   overflow: visible;
-  transform: translateY(-50%);
-  top: 50%;
   max-width: 500px;
+  width: 100%;
   margin: auto;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 @media only screen and (max-width: 320px) {
@@ -328,7 +333,6 @@ export const WALLETCONNECT_STYLE_SHEET = `:root {
   margin: 0 11px 2px 0;
   width: 34px;
   background-size: 100%;
-  box-shadow: 0 4px 12px 0 rgba(37, 41, 46, 0.25);
 }
 
 .walletconnect-modal__base__row__right__caret {

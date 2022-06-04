@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { TextMap } from "../types";
 interface QRCodeDisplayProps {
     text: TextMap;
