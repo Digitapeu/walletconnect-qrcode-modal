@@ -116,6 +116,7 @@ export const WALLETCONNECT_STYLE_SHEET = `:root {
 }
 
 .walletconnect-qrcode__text {
+  display: none;
   color: rgba(60, 66, 82, 0.6);
   font-size: 16px;
   font-weight: 600;
@@ -499,6 +500,7 @@ export const WALLETCONNECT_STYLE_SHEET = `:root {
 }
 
 .walletconnect-search__input {
+  display: none;
   border: none;
   background: #d4d5d9;
   border-style: none;
