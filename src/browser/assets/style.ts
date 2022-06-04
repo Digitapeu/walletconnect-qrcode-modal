@@ -65,7 +65,7 @@ export const WALLETCONNECT_STYLE_SHEET = `:root {
 
 .walletconnect-modal__close__wrapper {
   position: absolute;
-  top: calc(100% + 25px);
+  top: 0;
   right: 10px;
   z-index: 10000;
   background: white;
@@ -249,7 +249,7 @@ export const WALLETCONNECT_STYLE_SHEET = `:root {
   left: 0;
   justify-content: space-between;
   position: absolute;
-  top: -42px;
+  top: 10px;
   width: 100%;
 }
 
@@ -296,13 +296,14 @@ export const WALLETCONNECT_STYLE_SHEET = `:root {
   display: flex;
   height: 56px;
   justify-content: space-between;
-  padding: 0 15px;
+  padding: 5px 15px;
   position: relative;
   margin: 0px 0px 8px;
   text-align: left;
   transition: 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   will-change: transform;
   text-decoration: none;
+  border: 1px solid #b9b9b9
 }
 
 .walletconnect-modal__base__row:hover {
