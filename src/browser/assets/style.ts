@@ -291,7 +291,7 @@ export const WALLETCONNECT_STYLE_SHEET = `:root {
 .walletconnect-modal__base__row {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   align-items: center;
-  border-radius: 20px;
+  border-radius: 5px;
   cursor: pointer;
   display: flex;
   height: 56px;
@@ -319,7 +319,8 @@ export const WALLETCONNECT_STYLE_SHEET = `:root {
 .walletconnect-modal__base__row__h3 {
   color: #25292e;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
+  font-family: 'Exo';
   margin: 0;
   padding-bottom: 3px;
 }

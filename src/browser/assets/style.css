@@ -319,7 +319,8 @@
 .walletconnect-modal__base__row__h3 {
   color: #25292e;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
+  font-family: 'Exo';
   margin: 0;
   padding-bottom: 3px;
 }
