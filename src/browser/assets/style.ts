@@ -205,7 +205,6 @@ export const WALLETCONNECT_STYLE_SHEET = `:root {
 .walletconnect-modal__base {
   -webkit-font-smoothing: antialiased;
   background: #ffffff;
-  border-radius: 24px;
   box-shadow: 0 10px 50px 5px rgba(0, 0, 0, 0.4);
   font-family: ui-rounded, "SF Pro Rounded", "SF Pro Text", medium-content-sans-serif-font,
     -apple-system, BlinkMacSystemFont, ui-sans-serif, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
@@ -225,6 +224,8 @@ export const WALLETCONNECT_STYLE_SHEET = `:root {
   bottom: 0;
   left: 0;
   right: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
